@@ -5,6 +5,7 @@ import { dicoverMenu } from '../../common/local-data';
 import { DiscoverBox } from './styled';
 const Discover = memo((props) => {
   const { route } = props
+  console.log(props);
   return (
     <DiscoverBox>
       <div className='top '>
